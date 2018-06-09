@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Server", "src\Server\Server.csproj", "{D65C9883-86A4-4402-92CD-43C6AFF785FB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Website", "src\Website\Website.msbuildproj", "{A271793F-72BF-429D-9EC8-83C03559CBD6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D65C9883-86A4-4402-92CD-43C6AFF785FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D65C9883-86A4-4402-92CD-43C6AFF785FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D65C9883-86A4-4402-92CD-43C6AFF785FB}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D65C9883-86A4-4402-92CD-43C6AFF785FB}.Debug|x64.Build.0 = Debug|Any CPU
+		{D65C9883-86A4-4402-92CD-43C6AFF785FB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D65C9883-86A4-4402-92CD-43C6AFF785FB}.Debug|x86.Build.0 = Debug|Any CPU
+		{D65C9883-86A4-4402-92CD-43C6AFF785FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D65C9883-86A4-4402-92CD-43C6AFF785FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D65C9883-86A4-4402-92CD-43C6AFF785FB}.Release|x64.ActiveCfg = Release|Any CPU
+		{D65C9883-86A4-4402-92CD-43C6AFF785FB}.Release|x64.Build.0 = Release|Any CPU
+		{D65C9883-86A4-4402-92CD-43C6AFF785FB}.Release|x86.ActiveCfg = Release|Any CPU
+		{D65C9883-86A4-4402-92CD-43C6AFF785FB}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F9D85CF-19D3-4CBF-87CD-50717E4AF7B7}
+	EndGlobalSection
+EndGlobal

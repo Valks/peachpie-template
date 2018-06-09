@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\..\Common.props" />
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>a271793f-72bf-429d-9ec8-83c03559cbd6</ProjectGuid>
+  </PropertyGroup>
+
+    <PropertyGroup>
+        <OutputType>Library</OutputType>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <AssemblyName>Website</AssemblyName>
+        <TieredCompilation>true</TieredCompilation>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="wwwroot/**/*.php"
+         Exclude="**/tests/**;
+                  **/themecheck/**"
+        />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Content Include="wwwroot/**/*.*"
+                 Exclude="**/tests/**">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+        <DotNetCliToolReference Include="Peachpie.Compiler.Tools" Version="$(PeachpieVersion)" />
+        <PackageReference Include="Peachpie.NET.Sdk" Version="$(PeachpieVersion)" PrivateAssets="Build" />
+        <PackageReference Include="Peachpie.Library.Graphics" Version="$(PeachpieVersion)" />
+        <PackageReference Include="Peachpie.Library.Network" Version="$(PeachpieVersion)" />
+    </ItemGroup>
+</Project>
