@@ -4,6 +4,7 @@ The benefit is you don't need any boilerplate code in the ```wwwroot``` folder.
 
 A few things of note:
 
+- Content belongs in ```src\Website\wwwroot\```. You will need to create this folder.
 - At the moment a redirect is done on .php files to get the modified base path working.
 - Having trouble resolving MimeTypes so have a custom definition setup (need to fix). ```src\Server\MimeTypes.cs```
 - If your site needs to scan for php files then you need to copy the php files to the output folder (already configured in Website.msbuildproj) i.e. wordpress in detecting plugins/themes
